@@ -2,7 +2,7 @@ import { useState } from 'react'
 import withResults from '../../mocks/with-results.json'
 import withoutResults from '../../mocks/without-results.json'
 
-export function useMovies({ search }) {
+export function useMovies({ search, idmovie }) {
   const [responseMovies, setResponseMovies] = useState([])
 
   const movies = responseMovies.Search
@@ -28,5 +28,11 @@ export function useMovies({ search }) {
     }
   }
 
-  return { movies: mappedMovies, getMovies }
+  const fetchSingleMovie = idmovie => {
+    return fetch(`https://omdbapi.com/?apikey=${API_KEY}&i=${idmovie}`, {
+      cache: 'no-store'
+    }).then(res => res.json())
+  }
+
+  return { movies: mappedMovies, getMovies, fetchSingleMovie }
 }

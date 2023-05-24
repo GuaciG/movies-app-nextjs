@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from '../../styles/ListOfMovies.module.css'
+import Link from 'next/link'
 
 export function ListOfMovies({ movies }) {
   return (
@@ -10,12 +11,14 @@ export function ListOfMovies({ movies }) {
             <h3>{movie.title}</h3>
             <p>{movie.year}</p>
           </div>
-          <Image
-            src={movie.poster}
-            alt={movie.title}
-            width={220}
-            height={310}
-          />
+          <Link href={`/${movie.id}`}>
+            <Image
+              src={movie.poster}
+              alt={movie.title}
+              width={220}
+              height={310}
+            />
+          </Link>
         </li>
       ))}
     </ul>
