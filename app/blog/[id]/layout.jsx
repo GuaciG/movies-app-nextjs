@@ -23,7 +23,7 @@ export default async function Post({ children, params }) {
         />
       </div>
       <h2>{post.body}</h2>
-      <Link href={`/blog/${id}/comments`}>Ver comentarios about post {id}</Link>
+      <Link href={`/blog/${id}/comments`}>See comments about post {id}</Link>
       {children}
     </article>
   )
