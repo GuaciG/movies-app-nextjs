@@ -1,6 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Task for a company - Movie App with Next13 and deployed on Vercel
+
+![Movie App](https://res.cloudinary.com/drpcjt13x/image/upload/v1693503428/Proyectos/Movie%20App/movie-app_jkeyp3.jpg)
+
+## Home / Step 1
+
+'Home' includes a search engine where the user can type any keywords linked to a movie title. By clicking 'Search' a gallery of movies related to the search will be displayed.
+
+![Movie App Film](https://res.cloudinary.com/drpcjt13x/image/upload/v1693503429/Proyectos/Movie%20App/movie-app-film_zjwbnw.jpg)
+
+## Home / Step 2
+
+Clicking on each movie will navigate to another page with further information about it.
+
+![Movie App Blog](https://res.cloudinary.com/drpcjt13x/image/upload/v1693503430/Proyectos/Movie%20App/movie-blog-app_z9ex0z.jpg)
+
+## Blog / Step 1
+
+A list of clickable posts is displayed and will take the user to each of the corresponding posts.
+
+![Movie App Blog Comments](https://res.cloudinary.com/drpcjt13x/image/upload/v1693503429/Proyectos/Movie%20App/movie-blog-app-comments_i0h7ti.jpg)
+
+## Blog / Step 2
+
+Once there, the user will find another link to show comments from other users about the post we are reading at this moment.
 
 ## Getting Started
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
 

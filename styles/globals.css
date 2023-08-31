@@ -15,7 +15,6 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  background-color: #cecece;
   color: #333;
   padding: 70px 0 0 0;
   font-family: var(--font-montserrat);
@@ -101,7 +100,6 @@ main {
   justify-content: center;
   align-items: center;
   padding: 40px 20px;
-  background-color: #cecece;
 }
 
 .header-movie-content {
